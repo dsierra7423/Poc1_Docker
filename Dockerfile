@@ -14,7 +14,7 @@ RUN apt-get install -y wget gpg  \
     && echo yes | apt install code
 
 RUN apt install -y maven
-RUN apt install -y postgresql
+#RUN apt install -y postgresql
 RUN apt install -y openjdk-17-jdk
 RUN java -version
 
