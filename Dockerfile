@@ -24,6 +24,6 @@ FROM mcr.microsoft.com/dotnet/sdk:3.1 AS build
 
 FROM httpd:2.4
 
-COPY ./public-html/ /usr/local/apache2/htdocs/
+COPY ./public_html/ /usr/local/apache2/htdocs/
 
 EXPOSE 80
