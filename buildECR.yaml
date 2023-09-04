@@ -13,4 +13,4 @@ phases:
   post_build:
     commands:
       - echo Pushing the Docker image...
-      - docker push public.ecr.aws/f7i4b3w6/user-front-v1:$IMAGE_TAG     
+      - docker push public.ecr.aws/f7i4b3w6/$IMAGE_REPO_NAME:$IMAGE_TAG     
